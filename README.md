@@ -1,7 +1,7 @@
 # Contents
 
-[IntelliJ short-cut keys](#intellij-short-cut-keys)
-[Creating runnable jar](#creating-runnable-jar)
+- [IntelliJ short-cut keys](#intellij-short-cut-keys)
+- [Creating runnable jar](#creating-runnable-jar)
 
 
 ## IntelliJ short-cut keys
