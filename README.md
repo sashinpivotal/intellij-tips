@@ -1,3 +1,9 @@
+# Contents
+
+[IntelliJ short-cut keys](#intellij-short-cut-keys)
+[Creating runnable jar](#creating-runnable-jar)
+
+
 ## IntelliJ short-cut keys
 
 ### Essential IntelliJ Shortcut keys for Mac: 
@@ -65,5 +71,28 @@
   - Double SHIFT (global search)
 
 ### [Complete IntelliJ shortcut keys](https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf) 
+
+## Creating runnable jar
+
+### pom.xml
+
+```xml
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <configuration>
+          <archive>
+            <manifest>
+              <addClasspath>true</addClasspath>
+              <mainClass>fully.qualified.MainClass</mainClass>
+            </manifest>
+          </archive>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+```
 
  
