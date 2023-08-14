@@ -103,6 +103,7 @@
 - ![MySQL command line](./images/mysql1.png)
 - Once you opened it, enter 'c0nygre' as password
 - Then you can execute any MySQL statements such as
+  - show databases;
   - use \<database-name-of-your-choice\>;
   - show tables;
   - select * from \<table-name\>;
