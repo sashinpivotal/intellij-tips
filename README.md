@@ -2,6 +2,7 @@
 
 - [IntelliJ short-cut keys](#intellij-short-cut-keys)
 - [Creating runnable jar](#creating-runnable-jar)
+- [How to open "mysql" command line](#creating-mysql-command-line)
 
 
 ## IntelliJ short-cut keys
@@ -95,4 +96,14 @@
   </build>
 ```
 
+## Creating MySQL command line
+
+### How to start "MySQL command line"
+
+- ![MySQL command line](./images/mysql1.png)
+- Once you opened it, enter 'c0nygre' as password
+- Then you can execute any MySQL statements such as
+  - use <database-name-of-your-choice>;
+  - show tables;
+  - select * from <table-name>;
  
