@@ -98,7 +98,9 @@
 
 ## Creating MySQL command line
 
-### How to start "MySQL command line"
+### How to start "MySQL command line" with the VM
+
+You are welcome to use MySQL Workbench instead of "MySQL command line"
 
 - ![MySQL command line](./images/mysql1.png)
 - Once you opened it, enter 'c0nygre' as password
