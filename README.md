@@ -1,11 +1,48 @@
 # Contents
 
-- [IntelliJ short-cut keys](#intellij-short-cut-keys)
-- [Creating runnable jar](#creating-runnable-jar)
-- [How to open "mysql" command line](#creating-mysql-command-line)
+- [Contents](#contents)
+  - [IntelliJ short-cut keys](#intellij-short-cut-keys)
+    - [Essential IntelliJ Shortcut keys for Windows:](#essential-intellij-shortcut-keys-for-windows)
+    - [Essential IntelliJ Shortcut keys for Mac:](#essential-intellij-shortcut-keys-for-mac)
+    - [Complete IntelliJ shortcut keys](#complete-intellij-shortcut-keys)
+  - [Creating runnable jar](#creating-runnable-jar)
+    - [pom.xml](#pomxml)
+  - [Creating MySQL command line](#creating-mysql-command-line)
+    - [How to start "MySQL command line" with the VM](#how-to-start-mysql-command-line-with-the-vm)
 
 
 ## IntelliJ short-cut keys
+
+### Essential IntelliJ Shortcut keys for Windows: 
+
+- Run app and test 
+  - CTRL+SHIFT+F10 (run the app/test) 
+  - SHIFT+F5 (rerun the app/test) 
+  - SHIFT+F10 (rebuild/rerun) 
+
+- Editing 
+  - CTRL+B (go to the source code of a class or method) 
+  - ALT+Enter (quick fix for compiler error) 
+  - CTRL+SHIFT+Enter (complete current statement) 
+  - Alt+Ins (generate) 
+  - Shift+F6 (rename all instances of a variable) 
+  - CTRL+ALT+V (extract return value into a local variable) 
+  - F2, SHIFT+F2 (go to next/previous compile error) 
+  - Alt+Left (navigate back between classes) 
+  - Alt+Right (navigate forward between classes) 
+
+- Window management 
+  - CTRL+SHIFT+F12 (maximize/minimize editor window) 
+  - CTRL+SHIFT+F12 (maximize/minimize tool window) 
+  - Alt+F12 (open/close terminal window) 
+
+- Testing 
+  - CTRL+SHIFT+T (go to target/test code) 
+
+- File search 
+  - CTRL+N (find class) 
+  - CTRL+SHIFT+F (find file) 
+  - Double SHIFT (global search)
 
 ### Essential IntelliJ Shortcut keys for Mac: 
 
@@ -40,36 +77,6 @@
   - CMD+SHIFT+F (search within the project) 
   - Double SHIFT (global search)
 
-### Essential IntelliJ Shortcut keys for Windows: 
-
-- Run app and test 
-  - CTRL+SHIFT+F10 (run the app/test) 
-  - SHIFT+F5 (rerun the app/test) 
-  - SHIFT+F10 (rebuild/rerun) 
-
-- Editing 
-  - CTRL+B (go to the source code of a class or method) 
-  - ALT+Enter (quick fix for compiler error) 
-  - CTRL+SHIFT+Enter (complete current statement) 
-  - Alt+Ins (generate) 
-  - Shift+F6 (rename all instances of a variable) 
-  - CTRL+ALT+V (extract return value into a local variable) 
-  - F2, SHIFT+F2 (go to next/previous compile error) 
-  - Alt+Left (navigate back between classes) 
-  - Alt+Right (navigate forward between classes) 
-
-- Window management 
-  - CTRL+SHIFT+F12 (maximize/minimize editor window) 
-  - CTRL+SHIFT+F12 (maximize/minimize tool window) 
-  - Alt+F12 (open/close terminal window) 
-
-- Testing 
-  - CTRL+SHIFT+T (go to target/test code) 
-
-- File search 
-  - CTRL+N (find class) 
-  - CTRL+SHIFT+F (find file) 
-  - Double SHIFT (global search)
 
 ### [Complete IntelliJ shortcut keys](https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf) 
 
